@@ -1,0 +1,40 @@
+# Local settings, credentials and operating-system files
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary and application-generated files
+tmp/
+cache/
+**/Adobe After Effects Auto-Save/
+**/Adobe Premiere Pro Auto-Save/
+**/Media Cache*/
+*.aepx.tmp
+*.prlock
+*.pek
+*.cfa
+*.tmp
+*.log
+
+# Large film media and editable projects: track their storage location in README files
+*.mp4
+*.mov
+*.mxf
+*.webm
+*.wav
+*.mp3
+*.aiff
+*.aif
+*.flac
+*.aep
+*.aepx
+*.prproj
+*.drp
+*.blend
+*.psd
+*.ai
+*.fig
+*.zip
